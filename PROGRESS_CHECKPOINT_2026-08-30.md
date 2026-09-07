@@ -1,45 +1,46 @@
 # Katalog Proyek Lokal — Checkpoint
 
-Disimpan: 30 Agustus 2026, WIB
+Disimpan: 8 September 2026, WIB
 
 ## Status tervalidasi
 
 - Katalog statis berada di `D:\CODEX\output\katalog-proyek-lokal\index.html`.
-- Inventaris berisi **103 entri**: 37 game, 32 aplikasi, 8 web/PWA, 11 desktop, dan 15 produk aset.
+- Inventaris berisi **119 entri**: 37 game, 34 aplikasi, 8 web/PWA, 12 desktop, dan 28 produk aset.
 - Array `P` divalidasi: setiap entri tepat 6 kolom string, jenis dan sumber sah.
 - Repository publik: `https://github.com/zalifxstudio/katalog-proyek-lokal`.
 - GitHub Pages: `https://zalifxstudio.github.io/katalog-proyek-lokal/`.
 
-## Perubahan pada refresh 30 Agustus (terkurasi)
+## Perubahan pada refresh 8 September (terkurasi)
 
 Cakupan dipertahankan: game / aplikasi / desktop + produk aset digital yang benar-benar dibuat.
 Situs web yang sudah live tetap dikecualikan.
 
-**14 entri baru:**
+**16 entri baru sejak snapshot 30 Agustus:**
 
 | Entri | Jenis | Sumber |
 | --- | --- | --- |
-| LUNORA | Aplikasi | Claude |
-| Nagomi | Aplikasi | Claude |
-| Quiz Million (arsip) | Game | Claude |
-| Tide Temple Maze | Game | CODEX |
-| Langkah Terakhir | Game | CODEX |
-| Mimic Mall: Nothing Is Normal | Game | CODEX |
-| Hidden Object Pilot (Seekscape) | Game | CODEX |
-| Phone File Organizer | Desktop | Claude |
-| Bel Sekolah App (Wrapper) | Desktop | Claude |
-| Worksheet Edukasi 233 Halaman | Produk Aset | CODEX |
-| Small Warm Moments with Cats | Produk Aset | CODEX |
-| Fantasy RPG HUD & Menu Icons 240 Ultimate | Produk Aset | CODEX |
-| Nusantara Town Pixel Kit | Produk Aset | CODEX |
-| Fantasy RPG Profile Avatars 48 | Produk Aset | CODEX |
+| ASNQuiz | Aplikasi | Claude |
+| Fasih | Aplikasi | Claude |
+| Jadwal Olahraga Mingguan | Desktop | Claude |
+| Animals and Adventure Coloring Bundle 100 | Produk Aset | CODEX |
+| Junior Detective Case Files — The Missing Moonstone | Produk Aset | CODEX |
+| Big Sibling Mission Kit | Produk Aset | CODEX |
+| Feelings Detective — A4 Prototype | Produk Aset | CODEX |
+| ZXSTUDIO Motivational Typography Stickers 300 | Produk Aset | CODEX |
+| Kids Motivational Stickers 300 | Produk Aset | CODEX |
+| UI Doodle Icon Pack 426 | Produk Aset | CODEX |
+| Original Fantasy Game Character Pack 24 | Produk Aset | CODEX |
+| Halloween Vintage Artwork Collection 23 | Produk Aset | CODEX |
+| Cute Christmas Artwork Collection 48 | Produk Aset | CODEX |
+| Premium Anime Wallpaper Library 300 | Produk Aset | CODEX |
+| Anime Commercial Backgrounds 100 | Produk Aset | CODEX |
+| Nibblish My Mealtime Choices | Produk Aset | CODEX |
 
-**Entri diperbarui:**
+**Kriteria kurasi dan batas status:**
 
-- `Kawaii Sticker/Icon Catalog` — path mengikuti rename folder ke `_unused_sticker_icon_pack_1000_2026-08-23`; status jadi "di-arsipkan, produksi dihentikan".
-- `RPG Inventory Icons 240 Ultimate` & `RPG Skill Icons 240 Ultimate` — status merujuk folder `LIVE_ITCH_PRODUCTS` sebagai bukti rilis itch.io.
-- `Lumi Rise` — catatan varian arsip menyebut folder `LumiRise-Original`.
-- Teks `snapshot` di halaman: 22 → 30 Agustus 2026.
+- Hanya artefak dengan checkpoint, manifest, paket final, atau source aplikasi yang nyata yang ditambahkan.
+- Kandidat yang baru berupa rencana, batch belum konsisten, atau folder tool/cache tidak dicatat sebagai produk baru.
+- Teks `snapshot` di halaman: 30 Agustus → 8 September 2026.
 
 ## Lanjutkan dari sini
 
