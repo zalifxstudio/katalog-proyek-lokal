@@ -22,9 +22,11 @@ Memperbarui katalog lokal ZalifxStudio dari snapshot 30 Agustus dengan proyek da
 
 ## Status publikasi
 
-- Belum commit atau push. GitHub Pages publik masih menayangkan snapshot 30 Agustus sampai pembaruan lokal direview dan pengguna memberi persetujuan untuk publish.
+- Commit publikasi: `75db418` — `chore(katalog): refresh inventory to 119 entries`.
+- Sudah dipush ke `origin/main` pada 8 September 2026 atas persetujuan pengguna.
+- GitHub Pages berstatus `built`; URL publik HTTP 200 dan SHA-256 `index.html` publik identik dengan versi lokal: `89B22F13A521411CE6633E5B8227B0ADE9C6635C1FA3854718AC244E75E78155`.
 
 ## Langkah berikutnya
 
-1. Jalankan validasi katalog dan review diff.
-2. Bila disetujui, commit, push ke `main`, tunggu Pages berstatus built, lalu verifikasi URL HTTP 200 dan hash konten baru.
+1. Pada refresh berikutnya, rescan manifest/checkpoint proyek baru sambil mengecualikan cache, duplikat, dan rencana tanpa artefak.
+2. Jalankan validasi array, path lokal, `git diff --check`, lalu publish hanya setelah persetujuan pengguna.
